@@ -1,0 +1,98 @@
+/* General reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071e0c;
+    padding: 1rem;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+header p {
+    background-color: #ccc;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+/* Aside Section */
+aside {
+    text-align: center;
+    background-color: #d4b97b;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+main p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+main p:nth-child(2), main p:nth-child(3) {
+    background-color: #ccc;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
